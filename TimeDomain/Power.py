@@ -8,7 +8,7 @@ import numpy as np
 
 def Power( x ):
 
-	F = np.fft(x)
+	F = np.fft.fft(x)
 	P = F * np.conjugate(F)
 	resp = sum(P)
 

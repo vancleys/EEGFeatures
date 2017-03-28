@@ -25,4 +25,4 @@ List of features:
 	- Magnitude Squared Coherence Estimate
 
 
-### More features to added soon !
+### More features to be added soon !
