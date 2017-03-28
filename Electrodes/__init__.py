@@ -1,4 +1,4 @@
 # Vancley Simão
 # vancleys@gmail.com
 
-__all__ = ["DWT]
+__all__ = ["DA","MSCE"]

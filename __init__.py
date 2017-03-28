@@ -1,4 +1,4 @@
 # Vancley Simão
 # vancleys@gmail.com
 
-__all__ = ["TimeDomain", "FrequencyDomain", "TimeFrequencyDomain"]
+__all__ = ["Electrodes", "TimeDomain", "FrequencyDomain", "TimeFrequencyDomain"]
