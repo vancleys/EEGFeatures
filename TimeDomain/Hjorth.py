@@ -4,11 +4,10 @@
 
 # Hjorth Features
 
-import numpy as np
+import pyeeg
 
 def Hjorth( x ):
 
-	complexity = np.sqrt(np.mean(pow(np.diff(np.diff(x)),2)))
-	mobility = np.sqrt(np.mean(pow(diff(x),2))/np.mean(pow(x,2)))
+	resp = pyeeg.hjorth(x)
 
-	return complexity,mobility
+	return resp

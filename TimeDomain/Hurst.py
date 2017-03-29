@@ -4,10 +4,10 @@
 
 #  Hurst Exponent Feature
 
-import nolds
+import pyeeg
 
 def Hurst( x ):
 
-	resp = nolds.hurst_rs(x)
+	resp = pyeeg.hurst(x)
 
 	return resp

@@ -8,6 +8,6 @@ import nolds
 
 def CorrelationDimension( x ):
 
-	resp = nolds.corr_dim(x)
+	resp = nolds.corr_dim(x,1)
 
 	return resp

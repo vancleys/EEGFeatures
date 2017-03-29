@@ -4,7 +4,6 @@ EEG Features to be extracted from raw data.
 List of features:
 
 + Time Domain Features
-	- Detrended Fluctuation Analysis (DFA)
 	- Hjorth Coefficients
 	- Correlation Dimension
 	- Hurst Coefficient

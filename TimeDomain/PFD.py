@@ -8,7 +8,6 @@ import pyeeg
 
 def PFD( x ):
 
-	d =  pyeeg.first_order_diff(x)
-	resp = pyeeg.pfd(x, D=d)
+	resp = pyeeg.pfd(x)
 
 	return resp
